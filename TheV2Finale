@@ -7888,3 +7888,20 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet('https://raw.githubusercontent.com/Roman34296589/SnapSanix-GUI-MM2/main/SnapSanix%20GUI%20mm2.lua'))()
 end,
 })
+
+local Tab = Window:CreateTab("Football Fusion 2", 4483362458) -- Title, Image
+
+
+local Button = Tab:CreateButton({
+   Name = "All in one Script",
+   Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Football-Fusion-2-ALL-IN-ONE-FF-SCRIPT-6398"))()
+end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Script 2",
+   Callback = function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bc2d4cf963197247f6ad8df82ee73817.lua"))()
+end,
+})
