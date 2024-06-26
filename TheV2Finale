@@ -7867,5 +7867,24 @@ local Button = Tab:CreateButton({
    Name = "SnapSanix",
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/Roman34296589/SnapSanix-GUI-MM2/main/SnapSanix%20GUI%20mm2.lua'))()
-   end,
+end,
+})
+
+
+local Tab = Window:CreateTab("Sols RNG", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Mercyful",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/MercyfulSmoked/Xeo/main/Main.lua'))()
+end,
+})
+
+local Tab = Window:CreateTab("Kat", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Kat Script 1",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/Roman34296589/SnapSanix-GUI-MM2/main/SnapSanix%20GUI%20mm2.lua'))()
+end,
 })
