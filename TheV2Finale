@@ -1313,6 +1313,13 @@ local Button = Tab:CreateButton({
 local Tab = Window:CreateTab("Da Hood", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
+   Name = "Da Hood Fake Macro Press Q",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/QW5Whap9"))()
+end,
+})
+
+local Button = Tab:CreateButton({
    Name = "Azure Modded",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()
@@ -9087,5 +9094,28 @@ OrionLib:Init()
 end,
 })
 
+local Tab = Window:CreateTab("Hood Modded", 4483362458) -- Title, Image
 
+local Button = Tab:CreateButton({
+   Name = "ChariotsWare",
+   Callback = function()
+   loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Rippeed/DaHoodinary/main/chariotsware"))()
+end,
+})
+
+local Tab = Window:CreateTab("Jailbreak", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Chaos",
+   Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/xChaoticVoid/Jailbreak/main/Chaos.lua'), true))()
+end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Aoi Scripts",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zyn789/Aoi-Script/main/Jailbreak"))()
+end,
+})
 
