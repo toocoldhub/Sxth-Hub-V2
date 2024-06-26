@@ -9119,3 +9119,25 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/zyn789/Aoi-Script/mai
 end,
 })
 
+local Tab = Window:CreateTab("Blade Ball", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Script 1",
+   Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/UPD-Blade-Ball-op-autoparry-with-visualizer-8652"))()
+end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Script 2",
+   Callback = function()
+loadstring(game:HttpGet("https://rentry.co/7wrzwray/raw",true))()
+end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Solara Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tippy2235/Unownaz--Epic/main/SolaraHub.lua"))()
+end,
+})
