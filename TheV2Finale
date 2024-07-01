@@ -32,7 +32,7 @@ local Window = Rayfield:CreateWindow({
 local Tab = Window:CreateTab("Universal", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
-   Name = "Fake Delta X Executoer credits to Innovation ",
+   Name = "Fake Delta X Executor credits to Innovation ",
    Callback = function()
    --[[
 	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
